@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <meta http-equiv="Keywords" content="Web Scrapting Python Satoshi Toyosawa Cutt System">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+ <head>
+  <title>Python Web Scraping</title>
+  <style>
+    body {
+      background-color: snow;
+      background-image: radial-gradient(Lavender 1px, transparent 1px);
+      background-size: 10px 10px;
+      font-family: Meiryo, sans-serif;
+      font-size: 11pt;
+      color: darkslateblue;
+    }
+    span {
+      font-weight: bold;
+      font-size: large;
+    }
+    img {
+      display: block;
+      width: 200px;
+    }
+    img:hover {
+      width: auto;
+    }
+    div {
+      vertical-align: top;
+      display: inline-block;
+      width: 250px;
+      margin: 0px 12px 0px 12px;
+    }
+  </style>
+ </head>
+<body>
+
+<p>画像上にマウスカーソルをホバーすれば、拡大します。第11章と第12章の画像は、クリックするとインタラクティブマップ（HTML）が上がります。</p>
+
+<p><span>第2章 グーテンベルグの『イリアス』から登場人物のワードクラウドを生成</span></p>
+<div><img src="Samples/text_wc_illiad.png">ワード数200（デフォルト）</div>
+<div><img src="Samples/text_wc_MaxWords.png">ワード数10に制限したパターン</div>
+
+<p><span>第3章 グーテンベルグ『不思議の国のアリス』から登場人物の出現個所を時系列順にプロット</span></p>
+<div><img src="Samples/text_plot_Alice.png"></div>
+
+<p><span>第4章 本書刊行元の「カットシステム」のトップページからワードクラウドを生成</span></p>
+<div><img src="Samples/html_wc.png">固有名詞と一般名詞を抽出</div>
+<div><img src="Samples/html_wc_pn.png">固有名詞のみ</div>
+
+<p><span>第5章 青空文庫の『人間失格』からワードクラウドを生成</span></p>
+<div><img src="Samples/zip_wc.png"></div>
+
+<p><span>第6章 気象庁の地震情報ページの表をグラフ化</span></p>
+<div><img src="Samples/html_graph.png"></div>
+
+<p><span>第8章 本書刊行元の「カットシステム」のトップページ掲載の画像からアニメーションを生成</span></p>
+<div><img src="Samples/img_animation.webp"></div>
+
+<p><span>第9章 本書刊行元の「カットシステム」のトップページ掲載の画像からサムネール画像を生成</span></p>
+<div><img src="Samples/img_thumbnail.png"></div>
+
+<p><span>第10章 某雑誌社のページから顔だけを抽出したサムネール画像を生成</span></p>
+<div><img src="Samples/img_faces.png">意図的にぼかしています</div>
+<div><img src="Samples/EqualizeHist.png">ヒストグラム均等化の例（左オリジナル、右均等化後）</div>
+<div><img src="Samples/FacesDetected.png">検出した顔を示す</div>
+
+<p><span>第11章 東京都オープンデータから都内のWi-Fiスポットをプロット</span></p>
+<div><a target="_blank" href="Samples/json_geo.html"><img src="Samples/WifiGeo1.png"></a></div>
+
+<p><span>第12章 デジタル庁オープンデータから鉄道駅の位置をプロット</span></p>
+<div><a target="_blank" href="Samples/csv_geo.html"><img src="Samples/StationGeo.png"></a>デジタル庁はリンクだけを無批判に掲載しているだけなので、実は使い物になりません</div>
+
+<hr/>
+<p>&copy; 2023 Satoshi Toyosawa. All Rights Reserved.</p>
+</body>
+</html>
