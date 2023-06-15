@@ -5,7 +5,6 @@
 - [目次](./toc.md)
 - [参考文献](./B-References.md)（本書付録B）
 - [本書収録スクリプトの概要](./C-Scripts.md)（本書付録C）
-- 出力例
-	- 
+- [出力例](./Samples.html)
 
 
