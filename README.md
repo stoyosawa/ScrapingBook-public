@@ -10,5 +10,13 @@
 
 スクリプトは、購入者向けの出版社ダウンロードサービスからダウンロードできます。
 
-<img src="https://www.cutt.co.jp/book/images/978-4-87783-541-5.png" width="200">
+<div width="200" style="display: inline-block; vertical-align: top;"><img src="https://www.cutt.co.jp/book/images/978-4-87783-541-5.png" width="200"></div>
+<div style="display: inline-block; vertical-align: top;">
+こちらから購入できます。
+<ul>
+ <li><a href="https://honto.jp/netstore/pd-book_32635714.html">Honto</a></li>
+ <li><a href="https://www.yodobashi.com/product/100000009003743075/">ヨドバシカメラ</a></li>
+ <li><a href="https://www.amazon.co.jp/dp/4877835415">amazon.co.jp</a></li>
+</ul>
+</div>
 
